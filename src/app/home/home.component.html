@@ -22,5 +22,14 @@
 
   </mat-card>
 
+  <div style="padding: 10px; padding-top: 15px; text-align: center;">
+    <button (click) ="firstPage()" mat-button>First</button>
+    <button (click) ="prevPage()" mat-button>Prev</button>
+    <button (click) ="nextPage()" mat-button>Next</button>
+    <button (click) ="lastPage()" mat-button>Last</button>
+  </div>
+
+  <!-- <mat-paginator [length]="allProducts?.length" [pageSize]="3"></mat-paginator> -->
+
 </div>
 
